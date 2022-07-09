@@ -19,6 +19,6 @@ jurusan = input("{}[{}?{}]{}\tJurusan {}:{}  " .format(rt,yl,rt,gr,rt,pl))
 # dekorasi
 print("\n\n{}{}===================={}      {}Hasil Data{}      {}===================={}\n" .format(rt,rd,rt,lcy,rt,rd,rt))
 
-print("\n{}<================> \t{}Nama Kamu    {}: " .format(rt,gr,rd), nama,"\t\t""<================>", rt)
-print("{}<================> \t{}Kelas Kamu   {}: " .format(rt,gr,rd), kelas,"\t\t\t\t""<================>", rt)
-print("{}<================> \t{}Jurusan Kamu {}: " .format(rt,gr,rd), jurusan,"\t""<================>\n", rt)
+print("\n{}<================> \t{}Nama Kamu    {}:{} " .format(rt,gr,rt,rd), nama, rt, "\t\t""<================>" )
+print("{}<================> \t{}Kelas Kamu   {}:{} " .format(rt,gr,rt,rd), kelas, rt, "\t\t\t""<================>" )
+print("{}<================> \t{}Jurusan Kamu {}:{} " .format(rt,gr,rt,rd), jurusan, rt, "\t""<================>\n ")
